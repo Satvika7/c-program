@@ -1,14 +1,13 @@
 #include<stdio.h>
 main()
 {
-int a[100],n,i,key;
-scanf("%d",&n);
-for(i=0;i<n;i++)
+int a[5],i,key;
+for(i=0;i<5;i++)
 {
 	scanf("%d",&a[i]);
 }
 scanf("%d",&key);
-for(i=0;i<n;i++)
+for(i=0;i<5;i++)
 {
 if(a[i]==key)
 {
@@ -16,7 +15,7 @@ if(a[i]==key)
 }
 else
 {
-	printf("not found");
+	printf("not found");break;
 }
 }
 }
